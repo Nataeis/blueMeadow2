@@ -1,0 +1,212 @@
+@media (max-width: 960px){
+    .header{
+        min-width: auto;
+    }
+    .header-rigth-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .header-photo{
+        max-width: 960px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .header{
+        min-width: auto;
+        padding-bottom: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header-top-wrapper{
+        display: flex;
+        justify-content: space-around
+    }
+    .logo-lettering{
+        display: none;
+    }
+    .header-bottom-wrapper-left{
+        display: none;
+    }
+    .menu{
+        
+    }
+    .header-number{
+
+    }
+    .header-nav{
+
+    }
+    .header-left-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .header-rigth-wrapper{
+        display: none;
+    }
+    ..header-bottom-wrapper-left{
+
+    }
+    .header-bottom-wrapper-rigth{
+
+    }
+    .header-list{
+        display: none;
+    }
+    .header-list-element{
+
+    }
+    .header-photo{
+        width: 100%;
+        height: 168px;
+    }
+
+    .main{
+        min-width: 320px;
+        padding-top: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .main-title{
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 22px;
+        width: 319px;
+        height: 56px;
+        margin-top: 0px;
+    }
+    .preview{
+        width: 280px;
+    }
+
+    .preview-title{
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 16px;
+        color: #BF6024;
+    }
+    .preview-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 40px;
+        margin-bottom: 30px;
+        width: 280px;
+    }
+    .preview-photo{
+        width: 280px;
+    }
+    .preview-card{
+
+    }
+    .preview-text{
+
+    }
+    .article-border{
+
+    }
+    .info-title{
+        margin-top: 30px;
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 16px;
+        color: #BF6024;
+    }
+    .info-grid{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .info-card-one{
+
+    }
+    .residence-card{
+        width: 225px;
+    }
+    .info-text-one{
+
+    }
+    .btn-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-info{
+
+    }
+    .link-btn{
+
+    }
+    .info-card-two{
+        width: 280px;
+        height: 168px;
+        background-color: #EAEDF2;
+    }
+    .info-text-two{
+        font-family: 'Roboto';
+        font-size: 22px;
+        font-weight: 600;
+        width: 188px;
+        line-height: 128%;
+        padding: 0 0 14px 0
+       
+    }
+   
+    .residence-card-wrapper{
+        margin-top: 34px;
+        margin-left: 32px;
+    }
+    .info-card-three{
+        width: 280px;
+        height: 245px;
+        background-color: #EAEDF2;
+    }
+   
+    }
+    .card-loyalty-title{
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 128%;
+    }
+    .card-loyalty-tex{
+        width: 240px;
+        font-family: 'Roboto';
+        font-size: 10px;
+        font-weight: 400;
+
+    }
+    .residence-loyalty-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer{
+        min-width: 320px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .footer-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 40px;
+        width: 280px;
+    }
+    .left-footer{
+        margin-bottom: 40px;
+    }
+   
+    .center-footer{
+        margin: inherit;
+        margin-bottom: 40px;
+    }
+    
+    .text-right-footer{
+        width: 280px;
+    }
+}
+    
